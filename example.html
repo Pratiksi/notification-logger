@@ -5,21 +5,22 @@
 	<title>Notification Logger</title>
 </head>
 <body>
+	<h4>Notification Logger</h4>
 	<script src="notification-logger.js"></script>
 	<script>
 		logger.init();
 		var a = 2;
-		var b = "I would like to log this";
+		var b = "Congratulations! 🎉 You've reached a new milestone! Your progress and dedication have paid off, and we couldn't be prouder of your achievements. Take a moment to celebrate your success and reflect on how far you've come. You're an inspiration to us all!";
 
 		/*
 			Logs the variable b as Desktop Notification
 		*/
-		logger.log(b);
+		//logger.log(b);
 
 		/*
 			Logs the variable a as Desktop Notification along with a title
 		*/
-		console.log(a, "title");
+		console.log(b, "title");
 
 		/*
 			Reverts console.log to original functionality.
@@ -29,7 +30,7 @@
 		/*
 			Logs the variable simply in the console.
 		*/
-		console.log(a, "title");
+		//console.log(a, "title");
 
 	</script>
 </body>
